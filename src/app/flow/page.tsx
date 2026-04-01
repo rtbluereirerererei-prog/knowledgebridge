@@ -84,7 +84,7 @@ export default function FlowPage() {
       <section className="pt-32 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">FLOW</p>
-          <h1 className="mt-4 text-3xl md:text-4xl font-bold">
+          <h1 className="mt-4 text-xl md:text-2xl font-bold">
             原則12ヶ月で、社内に橋渡しする卒業設計
           </h1>
           <p className="mt-6 text-gray-300 leading-relaxed">
@@ -108,7 +108,7 @@ export default function FlowPage() {
               </span>
               <span className="text-sm text-gray-400">{phase.period}</span>
             </div>
-            <h2 className="mt-3 text-2xl md:text-3xl font-bold text-navy-900">
+            <h2 className="mt-3 text-xl md:text-2xl font-bold text-navy-900">
               {phase.title}
             </h2>
             <p className="mt-4 text-gray-600 leading-relaxed">{phase.purpose}</p>
@@ -127,7 +127,7 @@ export default function FlowPage() {
       {/* After Graduation */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold">
+          <h2 className="text-xl md:text-2xl font-bold">
             卒業後も、必要に応じた支援が可能です
           </h2>
           <p className="mt-4 text-gray-600">

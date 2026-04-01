@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
             <Image
-              src="/logo.jpg"
+              src="/logo.png"
               alt="ナレッジブリッジ"
               width={160}
               height={36}

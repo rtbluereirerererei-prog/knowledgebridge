@@ -29,9 +29,9 @@ export function ServicePage(props: ServicePageProps) {
           <p className="text-sm font-bold tracking-widest text-accent uppercase">
             {props.label}
           </p>
-          <h1 className="mt-4 text-3xl md:text-4xl font-bold">{props.name}</h1>
+          <h1 className="mt-4 text-xl md:text-2xl font-bold">{props.name}</h1>
           <div className="mt-4">
-            <span className="text-3xl font-bold text-accent">{props.price}</span>
+            <span className="text-2xl font-bold text-accent">{props.price}</span>
             <span className="text-gray-300 ml-1">（税別）</span>
           </div>
           <p className="mt-4 text-gray-300 text-lg">{props.copy}</p>
@@ -41,7 +41,7 @@ export function ServicePage(props: ServicePageProps) {
       {/* Value */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold">{props.valueHeading}</h2>
+          <h2 className="text-xl md:text-2xl font-bold">{props.valueHeading}</h2>
           <p className="mt-6 text-gray-600 leading-relaxed whitespace-pre-line">
             {props.valueText}
           </p>
@@ -51,7 +51,7 @@ export function ServicePage(props: ServicePageProps) {
       {/* Items */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             {props.itemsHeading}
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -73,7 +73,7 @@ export function ServicePage(props: ServicePageProps) {
       {/* Fit */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold">{props.fitHeading}</h2>
+          <h2 className="text-xl md:text-2xl font-bold">{props.fitHeading}</h2>
           <ul className="mt-8 space-y-4">
             {props.fitItems.map((item) => (
               <li key={item} className="flex items-start gap-3 text-gray-700">

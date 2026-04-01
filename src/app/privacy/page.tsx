@@ -73,7 +73,7 @@ export default function PrivacyPage() {
           <p className="text-sm font-bold tracking-widest text-accent uppercase">
             PRIVACY POLICY
           </p>
-          <h1 className="mt-4 text-3xl md:text-4xl font-bold">
+          <h1 className="mt-4 text-2xl md:text-3xl font-bold">
             プライバシーポリシー
           </h1>
         </div>

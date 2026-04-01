@@ -20,7 +20,7 @@ export default function ContactPage() {
         <section className="pt-32 pb-16 bg-navy-900 text-white">
           <div className="max-w-4xl mx-auto px-4">
             <p className="text-sm font-bold tracking-widest text-accent uppercase">CONTACT</p>
-            <h1 className="mt-4 text-3xl md:text-4xl font-bold">お問い合わせ・無料相談</h1>
+            <h1 className="mt-4 text-2xl md:text-3xl font-bold">お問い合わせ・無料相談</h1>
           </div>
         </section>
         <section className="py-20 bg-white">
@@ -50,7 +50,7 @@ export default function ContactPage() {
       <section className="pt-32 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">CONTACT</p>
-          <h1 className="mt-4 text-3xl md:text-4xl font-bold">お問い合わせ・無料相談</h1>
+          <h1 className="mt-4 text-2xl md:text-3xl font-bold">お問い合わせ・無料相談</h1>
           <p className="mt-4 text-gray-300">
             ECモール運営に関する課題やお悩みをお聞かせください。
             <br />

@@ -34,9 +34,9 @@ export default function ModulePage() {
       <section className="pt-32 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">SERVICE</p>
-          <h1 className="mt-4 text-3xl md:text-4xl font-bold">ナレッジブリッジ 機能別伴走支援</h1>
+          <h1 className="mt-4 text-xl md:text-2xl font-bold">ナレッジブリッジ 機能別伴走支援</h1>
           <div className="mt-4">
-            <span className="text-3xl font-bold text-accent">月額5万円〜</span>
+            <span className="text-2xl font-bold text-accent">月額5万円〜</span>
             <span className="text-gray-300 ml-1">（税別）</span>
           </div>
           <p className="mt-4 text-gray-300 text-lg">必要な領域だけ、小さく始められるモジュール型</p>
@@ -46,7 +46,7 @@ export default function ModulePage() {
       {/* Value */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold">必要な機能だけ、スモールスタート。</h2>
+          <h2 className="text-xl md:text-2xl font-bold">必要な機能だけ、スモールスタート。</h2>
           <p className="mt-6 text-gray-600 leading-relaxed">
             すべてを一括で任せる必要はありません。課題が明確な領域だけ、ピンポイントで支援します。
           </p>
@@ -63,7 +63,7 @@ export default function ModulePage() {
       {/* Items */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">対応可能な支援領域</h2>
+          <h2 className="text-xl md:text-2xl font-bold text-center">対応可能な支援領域</h2>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {items.map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
@@ -78,7 +78,7 @@ export default function ModulePage() {
       {/* Fit */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold">こんな企業に向いています</h2>
+          <h2 className="text-xl md:text-2xl font-bold">こんな企業に向いています</h2>
           <ul className="mt-8 space-y-4">
             {fitItems.map((item) => (
               <li key={item} className="flex items-start gap-3 text-gray-700">

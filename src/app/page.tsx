@@ -114,7 +114,7 @@ export default function Home() {
       <section className="pt-32 pb-20 md:pt-40 md:pb-28 bg-white">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-navy-900">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-navy-900">
               任せながら、
               <br />
               ノウハウを社内に残す。
@@ -142,10 +142,10 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-1 flex justify-center">
-            <div className="w-full max-w-md aspect-square bg-gradient-to-br from-accent-light via-white to-gray-100 rounded-2xl flex items-center justify-center">
+            <div className="w-full max-w-sm aspect-square bg-gradient-to-br from-accent-light via-white to-gray-100 rounded-2xl flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl mb-4">🌉</div>
-                <p className="text-navy-800 font-bold text-lg">Knowledge Bridge</p>
+                <div className="text-5xl mb-4">🌉</div>
+                <p className="text-navy-800 font-bold text-base">Knowledge Bridge</p>
                 <p className="text-gray-500 text-sm mt-1">知見を、社内に橋渡す</p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function Home() {
       {/* Section 2: Challenges */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             こんな課題、ありませんか？
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 gap-6">
@@ -179,7 +179,7 @@ export default function Home() {
       {/* Section 3: Essence */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold">
+          <h2 className="text-xl md:text-2xl font-bold">
             代行して終わらない。
             <br />
             コンサルして終わらない。
@@ -213,14 +213,14 @@ export default function Home() {
       {/* Section 4: 3 Promises */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             ナレッジブリッジの3つの約束
           </h2>
           <div className="mt-12 grid md:grid-cols-3 gap-8">
             {promises.map((p) => (
               <div key={p.num} className="text-center">
-                <div className="text-4xl font-bold text-accent">{p.num}</div>
-                <h3 className="mt-4 text-xl font-bold text-navy-900">
+                <div className="text-3xl font-bold text-accent">{p.num}</div>
+                <h3 className="mt-4 text-lg font-bold text-navy-900">
                   {p.title}
                 </h3>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
@@ -235,7 +235,7 @@ export default function Home() {
       {/* Section 5: Service Lineup */}
       <section id="services" className="py-20 bg-white scroll-mt-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             サービスラインナップ
           </h2>
           <div className="mt-12 grid md:grid-cols-3 gap-6">
@@ -275,7 +275,7 @@ export default function Home() {
       {/* Section 6: Graduation Design */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             原則12ヶ月で、社内に橋渡しする卒業設計
           </h2>
           <p className="mt-4 text-center text-gray-600">
@@ -318,7 +318,7 @@ export default function Home() {
       {/* Section 7: Target */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl font-bold text-center">
             こんな企業に向いています
           </h2>
           <ul className="mt-10 space-y-4">
@@ -338,7 +338,7 @@ export default function Home() {
       {/* Section 8: Case Studies (placeholder) */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold">導入事例</h2>
+          <h2 className="text-xl md:text-2xl font-bold">導入事例</h2>
           <p className="mt-4 text-gray-500">
             現在、掲載準備中です。導入事例は順次公開予定です。
           </p>

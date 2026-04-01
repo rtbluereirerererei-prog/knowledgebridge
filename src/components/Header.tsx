@@ -19,11 +19,11 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="ナレッジブリッジ"
-            width={240}
-            height={54}
-            className="h-12 w-auto"
+            width={200}
+            height={44}
+            className="h-10 w-auto"
             priority
           />
         </Link>
