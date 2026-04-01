@@ -19,7 +19,7 @@ const companyInfo = [
 export default function CompanyPage() {
   return (
     <>
-      <section className="pt-32 pb-16 bg-navy-900 text-white">
+      <section className="pt-36 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">COMPANY</p>
           <h1 className="mt-4 text-2xl md:text-3xl font-bold">会社概要</h1>

@@ -10,12 +10,12 @@ export function Footer() {
             <Image
               src="/logo.png"
               alt="ナレッジブリッジ"
-              width={160}
-              height={36}
-              className="h-8 w-auto brightness-0 invert"
+              width={220}
+              height={48}
+              className="h-12 w-auto brightness-0 invert"
             />
             <p className="text-sm text-gray-400 mt-2">
-              任せながら、ノウハウを社内に残す。
+              EC運営の知見を、仕組みごと社内へ移管する。
             </p>
           </div>
           <nav className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-gray-300">
@@ -23,7 +23,7 @@ export function Footer() {
               サービス
             </Link>
             <Link href="/flow" className="hover:text-white transition-colors">
-              12ヶ月卒業設計
+              導入の流れ
             </Link>
             <Link href="/company" className="hover:text-white transition-colors">
               会社概要

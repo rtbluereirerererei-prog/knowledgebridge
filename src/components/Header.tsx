@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const navItems = [
   { href: "/#services", label: "サービス" },
-  { href: "/flow", label: "12ヶ月卒業設計" },
+  { href: "/flow", label: "導入の流れ" },
   { href: "/company", label: "会社概要" },
   { href: "/contact", label: "お問い合わせ" },
 ];
@@ -16,14 +16,14 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
             src="/logo.png"
             alt="ナレッジブリッジ"
-            width={200}
-            height={44}
-            className="h-10 w-auto"
+            width={280}
+            height={56}
+            className="h-14 w-auto"
             priority
           />
         </Link>

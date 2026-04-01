@@ -68,7 +68,7 @@ const sections = [
 export default function PrivacyPage() {
   return (
     <>
-      <section className="pt-32 pb-16 bg-navy-900 text-white">
+      <section className="pt-36 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">
             PRIVACY POLICY

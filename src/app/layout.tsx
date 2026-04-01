@@ -13,11 +13,11 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: {
-    default: "ナレッジブリッジ｜任せながら、ノウハウを社内に残すEC運営支援",
+    default: "ナレッジブリッジ｜EC運営の知見を、仕組みごと社内へ移管する",
     template: "%s｜ナレッジブリッジ",
   },
   description:
-    "ECモール運営を支えながら、施策履歴・判断基準・運営ルールを社内へ橋渡し。原則12ヶ月で続く運営体制をつくるEC運営支援サービスです。",
+    "施策履歴・判断基準・KPI・SOPを体系化し、原則12ヶ月で内製化可能な状態をつくるEC運営支援。運用代行・コンサルティング・機能別伴走支援。",
   openGraph: {
     siteName: "ナレッジブリッジ",
     type: "website",

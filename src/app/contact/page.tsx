@@ -17,7 +17,7 @@ export default function ContactPage() {
   if (submitted) {
     return (
       <>
-        <section className="pt-32 pb-16 bg-navy-900 text-white">
+        <section className="pt-36 pb-16 bg-navy-900 text-white">
           <div className="max-w-4xl mx-auto px-4">
             <p className="text-sm font-bold tracking-widest text-accent uppercase">CONTACT</p>
             <h1 className="mt-4 text-2xl md:text-3xl font-bold">お問い合わせ・無料相談</h1>
@@ -47,7 +47,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="pt-32 pb-16 bg-navy-900 text-white">
+      <section className="pt-36 pb-16 bg-navy-900 text-white">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm font-bold tracking-widest text-accent uppercase">CONTACT</p>
           <h1 className="mt-4 text-2xl md:text-3xl font-bold">お問い合わせ・無料相談</h1>

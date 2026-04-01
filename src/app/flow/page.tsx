@@ -2,17 +2,18 @@ import type { Metadata } from "next";
 import { CTASection } from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "12ヶ月卒業設計",
+  title: "導入の流れ",
   description:
-    "可視化→共同運用→移管準備→卒業設計。原則12ヶ月で外部の知見を社内に橋渡しし、担当者が変わっても回る運営体制をつくります。",
+    "可視化→型の整備→移管準備→卒業設計。原則12ヶ月で外部の知見を社内に移管し、担当者が変わっても回る運営体制をつくります。",
 };
 
 const phases = [
   {
     label: "Phase 1",
-    period: "1〜3ヶ月",
+    period: "1-3ヶ月目",
     title: "可視化",
-    purpose: "現在の運営状態を見える化し、課題と優先順位を明確にするフェーズです。",
+    purpose:
+      "現在の運営状態を構造的に見える化し、課題と優先順位を明確にするフェーズです。",
     items: [
       "属人化している業務の特定と整理",
       "KPIの設計とモニタリング体制の構築",
@@ -23,9 +24,10 @@ const phases = [
   },
   {
     label: "Phase 2",
-    period: "4〜6ヶ月",
-    title: "共同運用",
-    purpose: "可視化した課題をもとに、再現可能な運営の型を整備するフェーズです。",
+    period: "4-6ヶ月目",
+    title: "型の整備",
+    purpose:
+      "可視化した課題をもとに、再現可能な運営の型を整備するフェーズです。",
     items: [
       "施策テンプレートの作成と標準化",
       "判断基準の言語化とドキュメント化",
@@ -36,9 +38,10 @@ const phases = [
   },
   {
     label: "Phase 3",
-    period: "7〜9ヶ月",
+    period: "7-9ヶ月目",
     title: "移管準備",
-    purpose: "クライアント主導への切り替えを進め、社内で運営できる体制を整えるフェーズです。",
+    purpose:
+      "クライアント主導への切り替えを進め、社内で運営できる体制を整えるフェーズです。",
     items: [
       "SOP（業務手順書）の作成と確認",
       "チェックリストの整備と運用テスト",
@@ -49,9 +52,10 @@ const phases = [
   },
   {
     label: "Phase 4",
-    period: "10〜12ヶ月",
+    period: "10-12ヶ月目",
     title: "卒業設計",
-    purpose: "社内で継続できる状態を最終確認し、支援を完了するフェーズです。",
+    purpose:
+      "社内で継続できる状態を最終確認し、支援を完了するフェーズです。",
     items: [
       "社内運営の自走状態の最終確認",
       "引き継ぎ資料の最終整備と納品",
@@ -81,16 +85,17 @@ export default function FlowPage() {
   return (
     <>
       {/* Header */}
-      <section className="pt-32 pb-16 bg-navy-900 text-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm font-bold tracking-widest text-accent uppercase">FLOW</p>
-          <h1 className="mt-4 text-xl md:text-2xl font-bold">
-            原則12ヶ月で、社内に橋渡しする卒業設計
+      <section className="pt-36 pb-20 bg-navy-900 text-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <p className="text-xs font-semibold tracking-[0.2em] text-accent uppercase">
+            Flow
+          </p>
+          <h1 className="mt-6 text-2xl md:text-3xl font-bold">
+            導入から社内移管まで、12ヶ月の支援フロー
           </h1>
-          <p className="mt-6 text-gray-300 leading-relaxed">
+          <p className="mt-6 text-gray-400 leading-relaxed max-w-2xl">
             ナレッジブリッジの支援は、依存を前提としていません。
             外部の知見を社内に移管し、担当者が変わっても回り続ける運営体制をつくるために、原則12ヶ月の卒業設計を組み込んでいます。
-            支援を長引かせることではなく、社内に残る形をつくることが目的です。
           </p>
         </div>
       </section>
@@ -99,11 +104,11 @@ export default function FlowPage() {
       {phases.map((phase, i) => (
         <section
           key={phase.label}
-          className={`py-20 ${i % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
+          className={`py-24 ${i % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
         >
-          <div className="max-w-4xl mx-auto px-4">
+          <div className="max-w-5xl mx-auto px-4">
             <div className="flex items-baseline gap-4">
-              <span className="text-sm font-bold text-accent uppercase tracking-wider">
+              <span className="text-xs font-semibold tracking-[0.15em] text-accent uppercase">
                 {phase.label}
               </span>
               <span className="text-sm text-gray-400">{phase.period}</span>
@@ -111,11 +116,16 @@ export default function FlowPage() {
             <h2 className="mt-3 text-xl md:text-2xl font-bold text-navy-900">
               {phase.title}
             </h2>
-            <p className="mt-4 text-gray-600 leading-relaxed">{phase.purpose}</p>
+            <p className="mt-4 text-gray-600 leading-relaxed">
+              {phase.purpose}
+            </p>
             <ul className="mt-8 space-y-3">
               {phase.items.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-gray-700">
-                  <span className="text-accent font-bold mt-0.5">●</span>
+                <li
+                  key={item}
+                  className="flex items-start gap-3 text-gray-700"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -125,13 +135,13 @@ export default function FlowPage() {
       ))}
 
       {/* After Graduation */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
+      <section className="py-24 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold">
             卒業後も、必要に応じた支援が可能です
           </h2>
           <p className="mt-4 text-gray-600">
-            12ヶ月の卒業設計が完了した後も、状況に応じて柔軟にサポートします。
+            12ヶ月の支援が完了した後も、状況に応じて柔軟にサポートします。
           </p>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {afterOptions.map((opt) => (
