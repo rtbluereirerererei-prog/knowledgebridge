@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Footer() {
@@ -6,7 +7,13 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
-            <p className="text-lg font-bold">ナレッジブリッジ</p>
+            <Image
+              src="/logo.jpg"
+              alt="ナレッジブリッジ"
+              width={160}
+              height={36}
+              className="h-8 w-auto brightness-0 invert"
+            />
             <p className="text-sm text-gray-400 mt-2">
               任せながら、ノウハウを社内に残す。
             </p>
