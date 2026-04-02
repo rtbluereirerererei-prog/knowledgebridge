@@ -16,15 +16,14 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
-      <div className="max-w-6xl mx-auto px-4 h-[72px] flex items-center justify-between">
-        <Link href="/" className="flex items-center">
+      <div className="max-w-6xl mx-auto px-4 h-24 flex items-center justify-between">
+        <Link href="/" className="flex items-center shrink-0">
           <Image
             src="/logo.png"
             alt="ナレッジブリッジ"
-            width={200}
-            height={40}
-            className="h-[40px] w-auto object-contain"
-            style={{ height: "40px", width: "auto" }}
+            width={320}
+            height={64}
+            className="h-16 w-auto object-contain"
             priority
           />
         </Link>
