@@ -21,7 +21,7 @@ export function Header() {
           <Image
             src="/logo.png"
             alt="ナレッジブリッジ"
-            width={320}
+            width={192}
             height={64}
             className="h-16 w-auto object-contain"
             priority

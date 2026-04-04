@@ -10,7 +10,7 @@ export function Footer() {
             <Image
               src="/logo.png"
               alt="ナレッジブリッジ"
-              width={220}
+              width={144}
               height={48}
               className="h-12 w-auto brightness-0 invert"
             />
