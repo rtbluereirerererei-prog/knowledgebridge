@@ -8,12 +8,11 @@ export const metadata: Metadata = {
 };
 
 const companyInfo = [
-  { label: "会社名", value: "（要確定）" },
+  { label: "会社名", value: "株式会社ナレッジブリッジ" },
   { label: "代表者", value: "鳥居 礼" },
-  { label: "所在地", value: "（要確定）" },
-  { label: "設立", value: "（要確定）" },
+  { label: "所在地", value: "神奈川県横浜市西区みなとみらい２丁目２−１" },
   { label: "事業内容", value: "ECモール運営支援（運用代行・コンサルティング・伴走支援）" },
-  { label: "メール", value: "rei.torii@careerprime.co" },
+  { label: "メール", value: "info@knowledgebridge.co.jp" },
 ];
 
 export default function CompanyPage() {
